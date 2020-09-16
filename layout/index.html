@@ -8,24 +8,43 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header>
-            <div class="logo">
-            </div>
+            <a href="" target="_self" class="logo">
+            </a>
             <div class="subheader">
                 <p>Система приема заявок на обслуживание техники</p>
             </div>
         </header>
         
         <main>
-            <h1></h1>
+            <section class="profile">
+                <label>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="javascript:void(0);">Войти</a></li>
+                        </ul>
+                    </div>
+                    <p class="user-name">Имя пользователя</p>
+                    <span class="user-picture"><img src="img/icon-profile.svg" alt="profile"></span>
+                </label>
+            </section>
+            <h1>Авторизация</h1>
             <section class="content">
-                
+                <div class="centered">
+                    <label for="login">Логин:</label>
+                    <input id="login" type="text"/>
+                    <label for="password">Пароль:</label>
+                    <input id="password" type="text"/>
+                    <div class="group">
+                        <button>Вход</button><button>Звонок в ЦИТ</button>
+                    </div>
+                </div>
             </section>
         </main>
         
@@ -33,6 +52,8 @@
             <p>2020<span class="upper">©</span> СмолАПО<div class="divider"></div>Разработка сайта: Горохов Станислав</p>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

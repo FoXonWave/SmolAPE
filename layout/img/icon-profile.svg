@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163 237" width="235" height="342">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #b3b3b3 } 
+	</style>
+	<path id="Icon" fill-rule="evenodd" class="shp0" d="M40 108L59.6 108C66.24 110.58 73.45 112 81 112C88.55 112 95.76 110.58 102.4 108L123 108C145.09 108 163 125.91 163 148L163 237L0 237L0 148C0 125.91 17.91 108 40 108ZM81 0C109.72 0 133 23.28 133 52C133 80.72 109.72 104 81 104C52.28 104 29 80.72 29 52C29 23.28 52.28 0 81 0Z" />
+</svg>
